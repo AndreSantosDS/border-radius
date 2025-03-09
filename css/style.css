@@ -9,7 +9,6 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
     background-color: #5E5F61;
     position: relative;
 }
@@ -42,14 +41,15 @@ h1{
     color: white;
 }
 p{
+    padding-bottom: 10px;
     color: white;
     font-size: 20px;
 }
 
 div#container{
     background-color: #ccc;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,8 +57,8 @@ div#container{
 }
 div.divBorderRadius{
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 div.divBorderRadius p{
     padding: 20px;
